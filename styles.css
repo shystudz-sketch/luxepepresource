@@ -1,21 +1,6 @@
 /* ===================================
    LUXE RESEARCH PEPTIDE DATABASE
    =================================== */
-header {
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 999;
-
-    background: rgba(22,22,22,.95);
-
-    backdrop-filter: blur(14px);
-
-    border-bottom: 1px solid rgba(255,255,255,.08);
-
-}
 :root{
 
 --primary:#8C1D2C;
@@ -66,7 +51,7 @@ top:0;
 
 z-index:999;
 
-background:white;
+background:#6B1024;
 
 display:flex;
 
@@ -76,7 +61,7 @@ align-items:center;
 
 padding:22px 7%;
 
-box-shadow:0 4px 18px rgba(0,0,0,.05);
+box-shadow:0 4px 18px rgba(0,0,0,.15);
 
 }
 
@@ -88,11 +73,15 @@ font-size:2.2rem;
 
 letter-spacing:2px;
 
+color:#F7EFE3;
+
 }
 
 .logo p{
 
-color:var(--muted);
+color:#F7EFE3;
+
+opacity:.85;
 
 margin-top:3px;
 
@@ -112,7 +101,7 @@ text-decoration:none;
 
 font-weight:600;
 
-color:#222;
+color:#F7EFE3;
 
 transition:.3s;
 
@@ -120,7 +109,7 @@ transition:.3s;
 
 nav a:hover{
 
-color:var(--primary);
+color:white;
 
 }
 
