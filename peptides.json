@@ -56,4 +56,1338 @@
     "notes": "Body Protection Compound.",
     "productUrl": "https://www.luxeresearchco.com"
   }
-]
+][
+  {
+    "name": "5-amino-1MQ",
+    "slug": "5-amino-1mq",
+    "categories": [
+      "Muscles",
+      "Weight Loss",
+      "Immune System"
+    ],
+    "benefits": [
+      "Assists with weight loss",
+      "Helps with muscle preservation",
+      "Body recomposition agent",
+      "Lowers cholesterol levels",
+      "Fights inflammation",
+      "Enhances aged muscle regeneration"
+    ],
+    "protocols": {
+      "treatmentLength": "20–30 days followed by 1–2 weeks off",
+      "oral": [
+        "50–150 mg daily with food",
+        "150 mg daily, 30 minutes after taking NAD+"
+      ]
+    },
+    "goodWith": [
+      "NAD+"
+    ],
+    "avoidWith": [],
+    "notes": "",
+    "sideEffects": [
+      "Difficulty sleeping",
+      "Difficulty participating in exercise"
+    ],
+    "halfLife": "",
+    "productUrl": "https://www.luxeresearchco.com"
+  },
+  {
+    "name": "AOD-9604",
+    "slug": "aod-9604",
+    "categories": [
+      "Weight Loss",
+      "Healing"
+    ],
+    "benefits": [
+      "Used for weight loss",
+      "Believed to help reduce body fat and help prevent new fat growth through improving body composition",
+      "Fat burner",
+      "Stimulates cartilage growth and repair, making it a potential treatment for osteoarthritis"
+    ],
+    "protocols": {
+      "treatmentLength": "Most popular is cycling 20 days on, 10 days off for up to 6 months",
+      "subcutaneous": [
+        "300 mcg in the morning while fasted",
+        "250 mcg twice daily at morning (while fasted) and bedtime (1–4 hours after meal)"
+      ],
+      "oral": [
+        "Dissolve 500 mcg troche under tongue in the morning"
+      ]
+    },
+    "goodWith": [
+      "Retatrutide",
+      "Semaglutide",
+      "Tirzepatide"
+    ],
+    "avoidWith": [
+      "Frag 176-191"
+    ],
+    "notes": [
+      "AOD stands for Anti Obesity Drug",
+      "Modified from Frag 176-191",
+      "May need a month for the effects to kick in",
+      "Use for minimum of 3 months",
+      "Some think it's not cost-effective given how long it takes to see results"
+    ],
+    "sideEffects": [
+      "Diarrhea",
+      "Flatulence",
+      "Increased appetite",
+      "Mild or moderate headache",
+      "Nausea"
+    ],
+    "halfLife": "4 minutes",
+    "productUrl": "https://www.luxeresearchco.com"
+  },
+  {
+    "name": "ARA-290",
+    "slug": "ara-290",
+    "categories": [
+      "Healing",
+      "Immune System",
+      "Cognitive Function"
+    ],
+    "benefits": [
+      "Promotes tissue repair",
+      "Relieves neuropathic pain",
+      "Fights diabetes",
+      "Boosts immune function"
+    ],
+    "protocols": {
+      "treatmentLength": "4–5 weeks",
+      "subcutaneous": [
+        "1–5 mg daily"
+      ]
+    },
+    "goodWith": [],
+    "avoidWith": [],
+    "notes": [
+      "Soluble in alkaline solutions. May appear cloudy when mixed with BAC water."
+    ],
+    "sideEffects": [
+      "Elevated blood pressure",
+      "Fast heart rate",
+      "Liver enzyme elevation",
+      "Nausea/Vomiting"
+    ],
+    "halfLife": "",
+    "productUrl": "https://www.luxeresearchco.com"
+  }
+],
+{
+  "name": "Argireline",
+  "slug": "argireline",
+  "categories": [
+    "Skin"
+  ],
+  "benefits": [
+    "Skin anti-aging benefits",
+    "Extends the effect of anti-wrinkle injections"
+  ],
+  "protocols": {
+    "topical": [
+      "Use in creams or serums as directed"
+    ]
+  },
+  "goodWith": [
+    "Snap-8"
+  ],
+  "avoidWith": [],
+  "notes": [],
+  "sideEffects": [
+    "Dry, flaky skin",
+    "Redness",
+    "Stinging sensation"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "BPC-157",
+  "slug": "bpc-157",
+  "categories": [
+    "Healing",
+    "Immune System",
+    "Pain",
+    "Focus",
+    "Bones"
+  ],
+  "benefits": [
+    "Wound healing and soft tissue injury recovery",
+    "Bone, joint, tendon and ligament health",
+    "GI health (helps with gastric ulcers)",
+    "Normalizing blood pressure",
+    "Strengthens the immune system",
+    "Positively impacts mood, behavior and cognitive health",
+    "Exhibits potential anti-cancer properties",
+    "Stimulates formation of new blood vessels",
+    "Helps with scar tissue formation"
+  ],
+  "protocols": {
+    "treatmentLength": "Not for long term. Typical cycle: 30 days followed by 2-week rest.",
+    "subcutaneous": [
+      "Start slow with 100 mcg daily",
+      "300 mcg daily",
+      "250 mcg twice daily",
+      "200–300 mcg twice daily at the location of pain/injury"
+    ],
+    "oral": [
+      "500 mcg capsules twice daily"
+    ],
+    "intramuscular": [
+      "150 mcg twice daily at the location of pain/injury"
+    ]
+  },
+  "goodWith": [
+    "GHK-Cu",
+    "TB-500",
+    "Thymosin Beta-4"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "BPC stands for Body Protective Compound"
+  ],
+  "sideEffects": [
+    "Changes in blood pressure",
+    "Changes in heart rhythm",
+    "Dizziness",
+    "Fatigue",
+    "Hot flashes",
+    "Nausea and vomiting",
+    "May affect mood when taken with SSRIs"
+  ],
+  "halfLife": "4 hours",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "CJC-1295",
+  "slug": "cjc-1295",
+  "categories": [
+    "Muscles",
+    "Bones",
+    "Cognitive Function",
+    "Energy",
+    "Healing",
+    "Immune System",
+    "Longevity",
+    "Sleep"
+  ],
+  "benefits": [
+    "Increases muscle mass and strength",
+    "Improves bone density",
+    "Increases lean mass",
+    "Increases overall energy and well-being",
+    "Used for burns or significant soft tissue injury after surgery",
+    "Improves sleep quality",
+    "Improves cognitive function"
+  ],
+  "protocols": {
+    "treatmentLength": "30 days",
+    "important": "Wait 2–3 hours after eating and don't eat for another 30 minutes after injection.",
+    "dac": [
+      "100 mcg twice weekly"
+    ],
+    "noDAC": [
+      "200 mcg nightly (5 nights on / 2 nights off)"
+    ],
+    "stack": [
+      "Often stacked with Ipamorelin (200/200 mcg nightly)"
+    ]
+  },
+  "goodWith": [
+    "Ipamorelin",
+    "Ibutamoren (MK-677)"
+  ],
+  "avoidWith": [
+    "Tesamorelin",
+    "Sermorelin"
+  ],
+  "notes": [
+    "Also known as MOD GRF (1-29)",
+    "Human growth hormone-releasing hormone (GHRH)",
+    "CJC-1295 without DAC has a shorter half-life but more frequent injections",
+    "CJC-1295 with DAC has a longer half-life and requires fewer injections"
+  ],
+  "sideEffects": [
+    "Water retention",
+    "Tingling",
+    "Numbness and decreased insulin sensitivity",
+    "Tiredness",
+    "Head rush or euphoria",
+    "Itching"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Dihexa",
+  "slug": "dihexa",
+  "categories": [
+    "Longevity",
+    "Cognitive Function"
+  ],
+  "benefits": [
+    "May improve learning and memory",
+    "Improves stroke recovery",
+    "Accelerates recovery from spinal cord injury and nerve damage",
+    "Protects against hearing loss",
+    "Investigated for neurodegenerative diseases"
+  ],
+  "protocols": {
+    "topical": [
+      "20 mg/ml twice daily",
+      "8–45 mg daily",
+      "10–20 mg into forearms daily until absorbed"
+    ],
+    "oral": [
+      "1–2 mg daily"
+    ]
+  },
+  "goodWith": [
+    "Semax",
+    "Selank",
+    "Cerebrolysin"
+  ],
+  "avoidWith": [],
+  "notes": [],
+  "sideEffects": [
+    "Anxiety",
+    "Change of taste",
+    "Insomnia",
+    "Irritability",
+    "Mood swings",
+    "Nausea"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "DSIP",
+  "slug": "dsip",
+  "categories": [
+    "Sleep"
+  ],
+  "benefits": [
+    "Improves sleep quality",
+    "Reduces chronic pain",
+    "Fights stress",
+    "Boosts brain power",
+    "Treats depression",
+    "May lower blood pressure",
+    "Supports alcohol and drug withdrawal"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "100 mcg three hours before bedtime",
+      "250–450 mcg at least two hours before bedtime",
+      "Can be given daily, every 3 days, or weekly"
+    ]
+  },
+  "goodWith": [],
+  "avoidWith": [],
+  "notes": [
+    "DSIP = Delta Sleep-Inducing Peptide"
+  ],
+  "sideEffects": [
+    "Headache",
+    "Low blood pressure",
+    "Vagal reactions",
+    "Vomiting"
+  ],
+  "halfLife": "7–8 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Epitalon",
+  "slug": "epitalon",
+  "categories": [
+    "Longevity"
+  ],
+  "benefits": [
+    "Slows aging",
+    "Supports melatonin production",
+    "Regulates sleep cycles",
+    "Supports cardiovascular health",
+    "Improves brain health",
+    "Boosts immunity",
+    "Improves eye health"
+  ],
+  "protocols": {
+    "intramuscular": [
+      "100 mcg daily for 10 days",
+      "100 mcg every third day",
+      "100 mcg every 3 days for 15 days",
+      "100 mcg three times weekly for 3 weeks"
+    ]
+  },
+  "goodWith": [
+    "Thymalin"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Often confused with Epithalamin.",
+    "10 mg Epithalamin ≈ 100 mcg Epitalon."
+  ],
+  "sideEffects": [
+    "Diarrhea",
+    "Difficulty sleeping",
+    "Fatigue",
+    "Flu-like symptoms",
+    "Headache",
+    "Irregular heartbeat",
+    "Joint pain",
+    "Nausea"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Frag 176-191",
+  "slug": "frag-176-191",
+  "categories": [
+    "Weight Loss"
+  ],
+  "benefits": [
+    "Supports fat metabolism",
+    "Helps reduce adipose tissue",
+    "Supports lean body composition"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "250–500 mcg daily"
+    ]
+  },
+  "goodWith": [
+    "CJC-1295",
+    "Ipamorelin"
+  ],
+  "avoidWith": [
+    "AOD-9604"
+  ],
+  "notes": [
+    "Growth hormone fragment 176-191."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Headache"
+  ],
+  "halfLife": "Approximately 30 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "GHK-Cu",
+  "slug": "ghk-cu",
+  "categories": [
+    "Healing",
+    "Skin",
+    "Hair"
+  ],
+  "benefits": [
+    "Supports wound healing",
+    "Improves skin appearance",
+    "Supports collagen production",
+    "May promote hair growth",
+    "Reduces inflammation"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "1–2 mg daily"
+    ],
+    "topical": [
+      "Apply once or twice daily"
+    ]
+  },
+  "goodWith": [
+    "BPC-157",
+    "TB-500"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Copper peptide widely researched for regenerative applications."
+  ],
+  "sideEffects": [
+    "Skin irritation",
+    "Injection site discomfort"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Humanin",
+  "slug": "humanin",
+  "categories": [
+    "Longevity",
+    "Cognitive Function"
+  ],
+  "benefits": [
+    "Supports healthy aging",
+    "May protect neurons",
+    "Supports mitochondrial health",
+    "May improve insulin sensitivity"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "1–2 mg several times weekly"
+    ]
+  },
+  "goodWith": [
+    "MOTS-C",
+    "SS-31"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Mitochondrial-derived peptide under investigation for healthy aging."
+  ],
+  "sideEffects": [
+    "Limited human safety data available"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Ipamorelin",
+  "slug": "ipamorelin",
+  "categories": [
+    "Muscle",
+    "Recovery",
+    "Sleep",
+    "Longevity"
+  ],
+  "benefits": [
+    "Stimulates natural growth hormone release",
+    "Supports lean muscle growth",
+    "Enhances recovery",
+    "Improves sleep quality",
+    "May assist fat loss"
+  ],
+  "protocols": {
+    "treatmentLength": "8–12 weeks",
+    "subcutaneous": [
+      "200–300 mcg before bed",
+      "May be used 5 days on / 2 days off"
+    ]
+  },
+  "goodWith": [
+    "CJC-1295",
+    "Tesamorelin"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Growth hormone secretagogue with minimal effect on cortisol and prolactin."
+  ],
+  "sideEffects": [
+    "Headache",
+    "Water retention",
+    "Injection site irritation",
+    "Increased hunger"
+  ],
+  "halfLife": "Approximately 2 hours",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "KPV",
+  "slug": "kpv",
+  "categories": [
+    "Healing",
+    "Immune System",
+    "Gut Health"
+  ],
+  "benefits": [
+    "Supports gastrointestinal health",
+    "May reduce inflammation",
+    "Supports skin health",
+    "Promotes tissue repair"
+  ],
+  "protocols": {
+    "oral": [
+      "250–500 mcg daily"
+    ],
+    "subcutaneous": [
+      "250 mcg daily"
+    ]
+  },
+  "goodWith": [
+    "BPC-157",
+    "LL-37"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Fragment of alpha-MSH researched for anti-inflammatory properties."
+  ],
+  "sideEffects": [
+    "Generally well tolerated",
+    "Possible injection site irritation"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "LL-37",
+  "slug": "ll-37",
+  "categories": [
+    "Immune System",
+    "Healing"
+  ],
+  "benefits": [
+    "Supports innate immune function",
+    "Promotes wound healing",
+    "May assist with chronic infections",
+    "Supports tissue repair"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "250 mcg daily for research cycles"
+    ]
+  },
+  "goodWith": [
+    "KPV",
+    "BPC-157"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Human antimicrobial peptide."
+  ],
+  "sideEffects": [
+    "Injection site discomfort",
+    "Temporary redness",
+    "Flu-like symptoms"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Matrixyl",
+  "slug": "matrixyl",
+  "categories": [
+    "Skin",
+    "Anti-Aging"
+  ],
+  "benefits": [
+    "Supports collagen production",
+    "Reduces the appearance of fine lines",
+    "Improves skin elasticity",
+    "Promotes smoother skin texture"
+  ],
+  "protocols": {
+    "topical": [
+      "Apply once or twice daily as part of a skincare routine"
+    ]
+  },
+  "goodWith": [
+    "Argireline",
+    "Snap-8",
+    "GHK-Cu"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Cosmetic peptide commonly used in anti-aging formulations."
+  ],
+  "sideEffects": [
+    "Possible skin irritation",
+    "Temporary redness"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Melanotan I",
+  "slug": "melanotan-i",
+  "categories": [
+    "Skin"
+  ],
+  "benefits": [
+    "Supports increased skin pigmentation",
+    "May reduce UV sensitivity",
+    "Promotes longer-lasting tanning response"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "250–500 mcg daily during loading phase",
+      "Maintenance as needed"
+    ]
+  },
+  "goodWith": [],
+  "avoidWith": [],
+  "notes": [
+    "Research peptide investigated for pigmentation."
+  ],
+  "sideEffects": [
+    "Nausea",
+    "Facial flushing",
+    "Increased freckles",
+    "Reduced appetite"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "MOTS-C",
+  "slug": "mots-c",
+  "categories": [
+    "Longevity",
+    "Weight Loss",
+    "Energy"
+  ],
+  "benefits": [
+    "Supports mitochondrial function",
+    "May improve insulin sensitivity",
+    "Supports metabolic flexibility",
+    "May enhance physical performance",
+    "Supports healthy aging"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "5–10 mg two or three times weekly"
+    ]
+  },
+  "goodWith": [
+    "Humanin",
+    "SS-31",
+    "5-Amino-1MQ"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Mitochondrial-derived peptide researched for metabolic health and longevity."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Fatigue",
+    "Headache"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "NAD+",
+  "slug": "nad-plus",
+  "categories": [
+    "Longevity",
+    "Energy",
+    "Cognitive Function"
+  ],
+  "benefits": [
+    "Supports cellular energy production",
+    "Promotes healthy aging",
+    "Supports DNA repair",
+    "Enhances mitochondrial function",
+    "Supports cognitive performance"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "25–50 mg daily"
+    ],
+    "intramuscular": [
+      "50–100 mg several times weekly"
+    ],
+    "intravenous": [
+      "Research protocol dependent"
+    ]
+  },
+  "goodWith": [
+    "5-Amino-1MQ",
+    "MOTS-C",
+    "SS-31"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Nicotinamide Adenine Dinucleotide is a naturally occurring coenzyme involved in cellular metabolism."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Flushing",
+    "Nausea",
+    "Fatigue"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "PE-22-28",
+  "slug": "pe-22-28",
+  "categories": [
+    "Mood",
+    "Cognitive Function"
+  ],
+  "benefits": [
+    "Supports healthy mood",
+    "May reduce anxiety-like behaviors",
+    "Supports cognitive function",
+    "Investigated for depression research"
+  ],
+  "protocols": {
+    "intranasal": [
+      "Research protocol dependent"
+    ]
+  },
+  "goodWith": [
+    "Selank",
+    "Semax"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Experimental peptide under investigation for mood regulation."
+  ],
+  "sideEffects": [
+    "Limited human safety data available"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Selank",
+  "slug": "selank",
+  "categories": [
+    "Cognitive Function",
+    "Mood",
+    "Sleep"
+  ],
+  "benefits": [
+    "Supports memory and learning",
+    "Promotes calmness",
+    "May reduce anxiety",
+    "Supports immune function",
+    "May improve sleep quality"
+  ],
+  "protocols": {
+    "intranasal": [
+      "250–500 mcg once or twice daily"
+    ],
+    "subcutaneous": [
+      "250 mcg daily"
+    ]
+  },
+  "goodWith": [
+    "Semax",
+    "PE-22-28"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Synthetic analog of tuftsin with anxiolytic properties under investigation."
+  ],
+  "sideEffects": [
+    "Temporary nasal irritation",
+    "Headache",
+    "Fatigue"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Semax",
+  "slug": "semax",
+  "categories": [
+    "Cognitive Function",
+    "Focus",
+    "Mood"
+  ],
+  "benefits": [
+    "Supports memory and learning",
+    "Enhances focus and concentration",
+    "May improve mental clarity",
+    "Supports recovery following neurological injury",
+    "May reduce mental fatigue"
+  ],
+  "protocols": {
+    "intranasal": [
+      "300–600 mcg once or twice daily"
+    ]
+  },
+  "goodWith": [
+    "Selank",
+    "PE-22-28",
+    "Dihexa"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Synthetic peptide derived from ACTH fragments and commonly researched for cognitive support."
+  ],
+  "sideEffects": [
+    "Temporary nasal irritation",
+    "Headache",
+    "Restlessness"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Sermorelin",
+  "slug": "sermorelin",
+  "categories": [
+    "Muscle",
+    "Recovery",
+    "Sleep",
+    "Longevity"
+  ],
+  "benefits": [
+    "Stimulates endogenous growth hormone release",
+    "Supports lean muscle development",
+    "Improves recovery",
+    "Supports fat metabolism",
+    "May improve sleep quality"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "200–300 mcg before bedtime"
+    ],
+    "treatmentLength": "8–12 weeks"
+  },
+  "goodWith": [
+    "Ipamorelin"
+  ],
+  "avoidWith": [
+    "CJC-1295",
+    "Tesamorelin"
+  ],
+  "notes": [
+    "Growth hormone-releasing hormone (GHRH) analog."
+  ],
+  "sideEffects": [
+    "Headache",
+    "Flushing",
+    "Injection site irritation",
+    "Water retention"
+  ],
+  "halfLife": "10–20 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Snap-8",
+  "slug": "snap-8",
+  "categories": [
+    "Skin",
+    "Anti-Aging"
+  ],
+  "benefits": [
+    "Reduces the appearance of expression lines",
+    "Supports smoother skin",
+    "May improve skin elasticity",
+    "Commonly used in cosmetic formulations"
+  ],
+  "protocols": {
+    "topical": [
+      "Apply once or twice daily"
+    ]
+  },
+  "goodWith": [
+    "Argireline",
+    "Matrixyl"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Topical cosmetic peptide related to Argireline."
+  ],
+  "sideEffects": [
+    "Possible skin irritation",
+    "Temporary redness"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Semax",
+  "slug": "semax",
+  "categories": [
+    "Cognitive Function",
+    "Focus",
+    "Mood"
+  ],
+  "benefits": [
+    "Supports memory and learning",
+    "Enhances focus and concentration",
+    "May improve mental clarity",
+    "Supports recovery following neurological injury",
+    "May reduce mental fatigue"
+  ],
+  "protocols": {
+    "intranasal": [
+      "300–600 mcg once or twice daily"
+    ]
+  },
+  "goodWith": [
+    "Selank",
+    "PE-22-28",
+    "Dihexa"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Synthetic peptide derived from ACTH fragments and commonly researched for cognitive support."
+  ],
+  "sideEffects": [
+    "Temporary nasal irritation",
+    "Headache",
+    "Restlessness"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Sermorelin",
+  "slug": "sermorelin",
+  "categories": [
+    "Muscle",
+    "Recovery",
+    "Sleep",
+    "Longevity"
+  ],
+  "benefits": [
+    "Stimulates endogenous growth hormone release",
+    "Supports lean muscle development",
+    "Improves recovery",
+    "Supports fat metabolism",
+    "May improve sleep quality"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "200–300 mcg before bedtime"
+    ],
+    "treatmentLength": "8–12 weeks"
+  },
+  "goodWith": [
+    "Ipamorelin"
+  ],
+  "avoidWith": [
+    "CJC-1295",
+    "Tesamorelin"
+  ],
+  "notes": [
+    "Growth hormone-releasing hormone (GHRH) analog."
+  ],
+  "sideEffects": [
+    "Headache",
+    "Flushing",
+    "Injection site irritation",
+    "Water retention"
+  ],
+  "halfLife": "10–20 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Snap-8",
+  "slug": "snap-8",
+  "categories": [
+    "Skin",
+    "Anti-Aging"
+  ],
+  "benefits": [
+    "Reduces the appearance of expression lines",
+    "Supports smoother skin",
+    "May improve skin elasticity",
+    "Commonly used in cosmetic formulations"
+  ],
+  "protocols": {
+    "topical": [
+      "Apply once or twice daily"
+    ]
+  },
+  "goodWith": [
+    "Argireline",
+    "Matrixyl"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Topical cosmetic peptide related to Argireline."
+  ],
+  "sideEffects": [
+    "Possible skin irritation",
+    "Temporary redness"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "SS-31",
+  "slug": "ss-31",
+  "categories": [
+    "Longevity",
+    "Energy",
+    "Healing"
+  ],
+  "benefits": [
+    "Supports mitochondrial function",
+    "May improve cellular energy production",
+    "Supports cardiovascular health",
+    "May improve exercise recovery",
+    "Supports healthy aging"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "5–10 mg daily"
+    ]
+  },
+  "goodWith": [
+    "Humanin",
+    "MOTS-C",
+    "NAD+"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Also known as Elamipretide."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Headache",
+    "Fatigue"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "TB-500",
+  "slug": "tb-500",
+  "categories": [
+    "Healing",
+    "Recovery",
+    "Muscle"
+  ],
+  "benefits": [
+    "Supports tendon and ligament repair",
+    "Promotes muscle recovery",
+    "Supports flexibility and mobility",
+    "May promote angiogenesis",
+    "Supports wound healing"
+  ],
+  "protocols": {
+    "loading": [
+      "2–5 mg twice weekly for 4–6 weeks"
+    ],
+    "maintenance": [
+      "2–5 mg every 2–4 weeks"
+    ]
+  },
+  "goodWith": [
+    "BPC-157",
+    "GHK-Cu"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Synthetic fragment of Thymosin Beta-4."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Fatigue",
+    "Headache"
+  ],
+  "halfLife": "Approximately 2–3 days",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Tesamorelin",
+  "slug": "tesamorelin",
+  "categories": [
+    "Weight Loss",
+    "Muscle",
+    "Longevity"
+  ],
+  "benefits": [
+    "Supports reduction of visceral fat",
+    "Promotes natural growth hormone release",
+    "Supports lean muscle mass",
+    "May improve body composition"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "1–2 mg daily"
+    ]
+  },
+  "goodWith": [
+    "Ipamorelin"
+  ],
+  "avoidWith": [
+    "CJC-1295",
+    "Sermorelin"
+  ],
+  "notes": [
+    "Growth hormone releasing hormone analogue."
+  ],
+  "sideEffects": [
+    "Water retention",
+    "Joint discomfort",
+    "Injection site reactions",
+    "Headache"
+  ],
+  "halfLife": "Approximately 30 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Tesofensine",
+  "slug": "tesofensine",
+  "categories": [
+    "Weight Loss"
+  ],
+  "benefits": [
+    "Supports appetite control",
+    "May increase energy expenditure",
+    "Supports body weight reduction",
+    "May improve metabolic health"
+  ],
+  "protocols": {
+    "oral": [
+      "250–500 mcg daily"
+    ]
+  },
+  "goodWith": [
+    "AOD-9604",
+    "5-Amino-1MQ"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Investigational compound researched for obesity management."
+  ],
+  "sideEffects": [
+    "Dry mouth",
+    "Insomnia",
+    "Increased heart rate",
+    "Constipation"
+  ],
+  "halfLife": "Approximately 9 days",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "SS-31",
+  "slug": "ss-31",
+  "categories": [
+    "Longevity",
+    "Energy",
+    "Healing"
+  ],
+  "benefits": [
+    "Supports mitochondrial function",
+    "May improve cellular energy production",
+    "Supports cardiovascular health",
+    "May improve exercise recovery",
+    "Supports healthy aging"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "5–10 mg daily"
+    ]
+  },
+  "goodWith": [
+    "Humanin",
+    "MOTS-C",
+    "NAD+"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Also known as Elamipretide."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Headache",
+    "Fatigue"
+  ],
+  "halfLife": "",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "TB-500",
+  "slug": "tb-500",
+  "categories": [
+    "Healing",
+    "Recovery",
+    "Muscle"
+  ],
+  "benefits": [
+    "Supports tendon and ligament repair",
+    "Promotes muscle recovery",
+    "Supports flexibility and mobility",
+    "May promote angiogenesis",
+    "Supports wound healing"
+  ],
+  "protocols": {
+    "loading": [
+      "2–5 mg twice weekly for 4–6 weeks"
+    ],
+    "maintenance": [
+      "2–5 mg every 2–4 weeks"
+    ]
+  },
+  "goodWith": [
+    "BPC-157",
+    "GHK-Cu"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Synthetic fragment of Thymosin Beta-4."
+  ],
+  "sideEffects": [
+    "Injection site irritation",
+    "Fatigue",
+    "Headache"
+  ],
+  "halfLife": "Approximately 2–3 days",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Tesamorelin",
+  "slug": "tesamorelin",
+  "categories": [
+    "Weight Loss",
+    "Muscle",
+    "Longevity"
+  ],
+  "benefits": [
+    "Supports reduction of visceral fat",
+    "Promotes natural growth hormone release",
+    "Supports lean muscle mass",
+    "May improve body composition"
+  ],
+  "protocols": {
+    "subcutaneous": [
+      "1–2 mg daily"
+    ]
+  },
+  "goodWith": [
+    "Ipamorelin"
+  ],
+  "avoidWith": [
+    "CJC-1295",
+    "Sermorelin"
+  ],
+  "notes": [
+    "Growth hormone releasing hormone analogue."
+  ],
+  "sideEffects": [
+    "Water retention",
+    "Joint discomfort",
+    "Injection site reactions",
+    "Headache"
+  ],
+  "halfLife": "Approximately 30 minutes",
+  "productUrl": "https://www.luxeresearchco.com"
+},
+{
+  "name": "Tesofensine",
+  "slug": "tesofensine",
+  "categories": [
+    "Weight Loss"
+  ],
+  "benefits": [
+    "Supports appetite control",
+    "May increase energy expenditure",
+    "Supports body weight reduction",
+    "May improve metabolic health"
+  ],
+  "protocols": {
+    "oral": [
+      "250–500 mcg daily"
+    ]
+  },
+  "goodWith": [
+    "AOD-9604",
+    "5-Amino-1MQ"
+  ],
+  "avoidWith": [],
+  "notes": [
+    "Investigational compound researched for obesity management."
+  ],
+  "sideEffects": [
+    "Dry mouth",
+    "Insomnia",
+    "Increased heart rate",
+    "Constipation"
+  ],
+  "halfLife": "Approximately 9 days",
+  "productUrl": "https://www.luxeresearchco.com"
+}
