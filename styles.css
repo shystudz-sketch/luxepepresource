@@ -1,7 +1,21 @@
 /* ===================================
    LUXE RESEARCH PEPTIDE DATABASE
    =================================== */
+header {
 
+    position: sticky;
+
+    top: 0;
+
+    z-index: 999;
+
+    background: rgba(22,22,22,.95);
+
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+
+}
 :root{
 
 --primary:#8C1D2C;
@@ -152,31 +166,33 @@ margin-top:45px;
 
 }
 
-.search-box input{
+.hero-search input{
 
-width:100%;
+    width:100%;
 
-max-width:720px;
+    max-width:750px;
 
-padding:20px;
+    padding:22px 28px;
 
-font-size:18px;
+    font-size:18px;
 
-border-radius:60px;
+    border-radius:60px;
 
-border:1px solid var(--border);
+    border:2px solid transparent;
 
-outline:none;
+    outline:none;
 
-transition:.3s;
+    transition:.3s;
 
-box-shadow:var(--shadow);
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
 
 }
 
-.search-box input:focus{
+.hero-search input:focus{
 
-border-color:var(--primary);
+    border-color:#8C1D2C;
+
+    transform:scale(1.02);
 
 }
 
@@ -291,23 +307,27 @@ color:white;
 
     background:#fff;
 
-    border-radius:20px;
+    border-radius:22px;
 
-    margin-bottom:25px;
+    margin:30px auto;
 
     overflow:hidden;
 
-    box-shadow:0 12px 35px rgba(0,0,0,.08);
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
 
-    transition:.3s;
+    transition:.35s;
+
+    border:1px solid rgba(0,0,0,.05);
 
 }
 
 .peptide-card:hover{
 
-    transform:translateY(-5px);
+    transform:translateY(-8px);
 
-    box-shadow:0 20px 45px rgba(0,0,0,.12);
+    box-shadow:0 28px 70px rgba(0,0,0,.12);
+
+}
 
 }
 
