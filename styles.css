@@ -277,3 +277,180 @@ background:var(--primary);
 color:white;
 
 }
+/* =====================================
+   PEPTIDE CARDS
+===================================== */
+
+#peptideContainer{
+    width:90%;
+    max-width:1300px;
+    margin:40px auto 80px;
+}
+
+.peptide-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    margin-bottom:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.peptide-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+.accordion-header{
+
+    padding:30px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#fff;
+
+}
+
+.accordion-header h2{
+
+    font-size:30px;
+
+    color:#8C1D2C;
+
+    margin-bottom:6px;
+
+}
+
+.accordion-header p{
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+.accordion-header span{
+
+    font-size:40px;
+
+    color:#8C1D2C;
+
+    font-weight:300;
+
+}
+
+.accordion-body{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height .4s ease;
+
+    padding:0 30px;
+
+}
+
+.accordion-body h3{
+
+    margin-top:30px;
+
+    margin-bottom:12px;
+
+    color:#8C1D2C;
+
+    border-left:5px solid #8C1D2C;
+
+    padding-left:12px;
+
+}
+
+.accordion-body ul{
+
+    margin-left:25px;
+
+}
+
+.accordion-body li{
+
+    margin-bottom:10px;
+
+}
+
+.accordion-body p{
+
+    color:#444;
+
+}
+
+.product-button{
+
+    display:inline-block;
+
+    margin:35px 0;
+
+    padding:15px 35px;
+
+    border-radius:50px;
+
+    background:#8C1D2C;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.product-button:hover{
+
+    background:#6E1722;
+
+}
+
+@media(max-width:768px){
+
+.accordion-header{
+
+padding:20px;
+
+}
+
+.accordion-header h2{
+
+font-size:24px;
+
+}
+
+.hero h2{
+
+font-size:42px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
