@@ -44,19 +44,26 @@
 
     <div class="hero-content">
 
-        <h2>The Luxe Research Peptide Database</h2>
+        <span class="hero-tag">
+            LUXE RESEARCH CO.
+        </span>
+
+        <h1>Peptide Knowledge Database</h1>
 
         <p>
-            Explore research peptides, protocols, benefits, stacking recommendations,
-            side effects, and educational information in one searchable resource.
+
+            Explore research peptides, protocols, stacking recommendations,
+            half-lives, research notes, side effects, and educational
+            information in one searchable database.
+
         </p>
 
-        <div class="search-box">
+        <div class="hero-search">
 
             <input
                 type="text"
                 id="searchInput"
-                placeholder="Search peptides, benefits, conditions..."
+                placeholder="Search peptides, conditions, benefits..."
             >
 
         </div>
@@ -65,27 +72,34 @@
 
 </section>
 
-<section class="filters">
+<section class="stats">
 
-    <button class="filter-btn" data-filter="all">All</button>
+    <div class="stat-card">
 
-    <button class="filter-btn" data-filter="Healing">Healing</button>
+        <h2 id="peptideCount">31</h2>
 
-    <button class="filter-btn" data-filter="Weight Loss">Weight Loss</button>
+        <p>Research Peptides</p>
 
-    <button class="filter-btn" data-filter="Muscle">Muscle</button>
+    </div>
 
-    <button class="filter-btn" data-filter="Brain">Brain</button>
+    <div class="stat-card">
 
-    <button class="filter-btn" data-filter="Longevity">Longevity</button>
+        <h2 id="categoryCount">12</h2>
 
-    <button class="filter-btn" data-filter="Immune">Immune</button>
+        <p>Categories</p>
 
-    <button class="filter-btn" data-filter="Skin">Skin</button>
+    </div>
 
-    <button class="filter-btn" data-filter="Sleep">Sleep</button>
+    <div class="stat-card">
+
+        <h2>100%</h2>
+
+        <p>Searchable</p>
+
+    </div>
 
 </section>
+<section id="filters" class="filters"></section>
 
 <section class="alphabet">
 
@@ -120,167 +134,9 @@
 
 <main id="database">
 
-<section id="A">
+    <section id="filters" class="filters"></section>
 
-<h2 class="letter">A</h2>
-
-<div id="peptide-container">
-
-<!-- Peptide cards load here from peptides.json -->
-
-</div>
-
-</section>
-
-<section id="B">
-
-<h2 class="letter">B</h2>
-
-</section>
-
-<section id="C">
-
-<h2 class="letter">C</h2>
-
-</section>
-
-<section id="D">
-
-<h2 class="letter">D</h2>
-
-</section>
-
-<section id="E">
-
-<h2 class="letter">E</h2>
-
-</section>
-
-<section id="F">
-
-<h2 class="letter">F</h2>
-
-</section>
-
-<section id="G">
-
-<h2 class="letter">G</h2>
-
-</section>
-
-<section id="H">
-
-<h2 class="letter">H</h2>
-
-</section>
-
-<section id="I">
-
-<h2 class="letter">I</h2>
-
-</section>
-
-<section id="J">
-
-<h2 class="letter">J</h2>
-
-</section>
-
-<section id="K">
-
-<h2 class="letter">K</h2>
-
-</section>
-
-<section id="L">
-
-<h2 class="letter">L</h2>
-
-</section>
-
-<section id="M">
-
-<h2 class="letter">M</h2>
-
-</section>
-
-<section id="N">
-
-<h2 class="letter">N</h2>
-
-</section>
-
-<section id="O">
-
-<h2 class="letter">O</h2>
-
-</section>
-
-<section id="P">
-
-<h2 class="letter">P</h2>
-
-</section>
-
-<section id="Q">
-
-<h2 class="letter">Q</h2>
-
-</section>
-
-<section id="R">
-
-<h2 class="letter">R</h2>
-
-</section>
-
-<section id="S">
-
-<h2 class="letter">S</h2>
-
-</section>
-
-<section id="T">
-
-<h2 class="letter">T</h2>
-
-</section>
-
-<section id="U">
-
-<h2 class="letter">U</h2>
-
-</section>
-
-<section id="V">
-
-<h2 class="letter">V</h2>
-
-</section>
-
-<section id="W">
-
-<h2 class="letter">W</h2>
-
-</section>
-
-<section id="X">
-
-<h2 class="letter">X</h2>
-
-</section>
-
-<section id="Y">
-
-<h2 class="letter">Y</h2>
-
-</section>
-
-<section id="Z">
-
-<h2 class="letter">Z</h2>
-
-</section>
+    <section id="peptideContainer"></section>
 
 </main>
 
