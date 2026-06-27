@@ -1,0 +1,279 @@
+/* ===================================
+   LUXE RESEARCH PEPTIDE DATABASE
+   =================================== */
+
+:root{
+
+--primary:#8C1D2C;
+--primary-dark:#6E1722;
+--background:#f8f8f8;
+--card:#ffffff;
+--text:#1d1d1d;
+--muted:#777;
+--border:#ececec;
+
+--shadow:0 10px 35px rgba(0,0,0,.08);
+
+--radius:18px;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+font-family:'Inter',sans-serif;
+
+background:var(--background);
+
+color:var(--text);
+
+line-height:1.7;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+header{
+
+position:sticky;
+
+top:0;
+
+z-index:999;
+
+background:white;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:22px 7%;
+
+box-shadow:0 4px 18px rgba(0,0,0,.05);
+
+}
+
+.logo h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:2.2rem;
+
+letter-spacing:2px;
+
+}
+
+.logo p{
+
+color:var(--muted);
+
+margin-top:3px;
+
+}
+
+nav{
+
+display:flex;
+
+gap:30px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+font-weight:600;
+
+color:#222;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:var(--primary);
+
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero{
+
+padding:110px 8%;
+
+text-align:center;
+
+background:linear-gradient(180deg,#ffffff,#f3f3f3);
+
+}
+
+.hero h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:4rem;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+max-width:750px;
+
+margin:auto;
+
+font-size:1.1rem;
+
+color:#666;
+
+}
+
+/* ---------------- SEARCH ---------------- */
+
+.search-box{
+
+margin-top:45px;
+
+}
+
+.search-box input{
+
+width:100%;
+
+max-width:720px;
+
+padding:20px;
+
+font-size:18px;
+
+border-radius:60px;
+
+border:1px solid var(--border);
+
+outline:none;
+
+transition:.3s;
+
+box-shadow:var(--shadow);
+
+}
+
+.search-box input:focus{
+
+border-color:var(--primary);
+
+}
+
+/* ---------------- FILTERS ---------------- */
+
+.filters{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+padding:50px 7%;
+
+}
+
+.filter-btn{
+
+padding:14px 28px;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+background:white;
+
+box-shadow:var(--shadow);
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.filter-btn:hover{
+
+background:var(--primary);
+
+color:white;
+
+transform:translateY(-3px);
+
+}
+
+/* ---------------- ALPHABET ---------------- */
+
+.alphabet{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:10px;
+
+padding-bottom:40px;
+
+}
+
+.alphabet a{
+
+width:42px;
+
+height:42px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+background:white;
+
+text-decoration:none;
+
+color:#333;
+
+font-weight:700;
+
+box-shadow:var(--shadow);
+
+transition:.3s;
+
+}
+
+.alphabet a:hover{
+
+background:var(--primary);
+
+color:white;
+
+}
