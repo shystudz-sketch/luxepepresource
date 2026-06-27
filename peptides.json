@@ -1,0 +1,59 @@
+[
+  {
+    "name": "5-Amino-1MQ",
+    "category": ["Weight Loss", "Longevity"],
+    "benefits": [
+      "Supports fat metabolism",
+      "May increase energy expenditure"
+    ],
+    "protocols": {
+      "Research": "See protocol"
+    },
+    "goodWith": [],
+    "avoidWith": [],
+    "halfLife": "",
+    "sideEffects": [],
+    "notes": "",
+    "productUrl": "https://www.luxeresearchco.com"
+  },
+  {
+    "name": "AOD-9604",
+    "category": ["Weight Loss"],
+    "benefits": [
+      "Supports fat metabolism"
+    ],
+    "protocols": {
+      "Research": "See protocol"
+    },
+    "goodWith": [],
+    "avoidWith": [],
+    "halfLife": "",
+    "sideEffects": [],
+    "notes": "",
+    "productUrl": "https://www.luxeresearchco.com"
+  },
+  {
+    "name": "BPC-157",
+    "category": ["Healing", "Recovery"],
+    "benefits": [
+      "Supports tendon repair",
+      "Supports ligament repair",
+      "Supports gut health"
+    ],
+    "protocols": {
+      "Injection": "250 mcg daily"
+    },
+    "goodWith": [
+      "TB-500",
+      "GHK-Cu"
+    ],
+    "avoidWith": [],
+    "halfLife": "4 hours",
+    "sideEffects": [
+      "Possible nausea",
+      "Possible headache"
+    ],
+    "notes": "Body Protection Compound.",
+    "productUrl": "https://www.luxeresearchco.com"
+  }
+]
