@@ -1,137 +1,255 @@
-// ======================================
+// ===========================================
 // Luxe Research Peptide Database
-// script.js
-// ======================================
+// Dynamic Loader
+// ===========================================
 
-document.addEventListener("DOMContentLoaded", () => {
+let peptides = [];
 
-    // Search
-    const searchInput = document.getElementById("searchInput");
+document.addEventListener("DOMContentLoaded", async () => {
 
-    if (searchInput) {
+    await loadPeptides();
 
-        searchInput.addEventListener("keyup", function () {
+    createCategoryButtons();
 
-            const value = this.value.toLowerCase();
+    renderPeptides(peptides);
 
-            const cards = document.querySelectorAll(".peptide-card");
+    setupSearch();
 
-            cards.forEach(card => {
+});
 
-                const text = card.innerText.toLowerCase();
+async function loadPeptides(){
 
-                if (text.includes(value)) {
-                    card.style.display = "block";
-                } else {
-                    card.style.display = "none";
-                }
+    try{
 
-            });
+        const response = await fetch("peptides.json");
 
-        });
+        peptides = await response.json();
+
+    }catch(error){
+
+        console.error("Unable to load peptides.",error);
 
     }
 
-    // Accordion
+}
 
-    document.addEventListener("click", function(e){
+function renderPeptides(data){
 
-        if(e.target.classList.contains("accordion-header")){
+    const container=document.getElementById("peptideContainer");
 
-            const body = e.target.nextElementSibling;
+    container.innerHTML="";
 
-            e.target.classList.toggle("active");
+    data.forEach(peptide=>{
 
-            if(body.style.maxHeight){
+        const card=document.createElement("div");
 
-                body.style.maxHeight = null;
+        card.className="peptide-card";
 
-            }else{
+        card.innerHTML=`
 
-                body.style.maxHeight = body.scrollHeight + "px";
+        <div class="accordion-header">
 
-            }
+            <div>
 
-        }
+                <h2>${peptide.name}</h2>
+
+                <p>${peptide.categories.join(" • ")}</p>
+
+            </div>
+
+            <span>+</span>
+
+        </div>
+
+        <div class="accordion-body">
+
+            <h3>Benefits</h3>
+
+            <ul>
+
+                ${peptide.benefits.map(x=>`<li>${x}</li>`).join("")}
+
+            </ul>
+
+            <h3>Protocols</h3>
+
+            ${renderProtocols(peptide.protocols)}
+
+            <h3>Good With</h3>
+
+            <p>${peptide.goodWith.join(", ") || "None"}</p>
+
+            <h3>Avoid With</h3>
+
+            <p>${peptide.avoidWith.join(", ") || "None"}</p>
+
+            <h3>Half-Life</h3>
+
+            <p>${peptide.halfLife || "N/A"}</p>
+
+            <h3>Side Effects</h3>
+
+            <ul>
+
+                ${peptide.sideEffects.map(x=>`<li>${x}</li>`).join("")}
+
+            </ul>
+
+            <h3>Notes</h3>
+
+            <ul>
+
+                ${peptide.notes.map(x=>`<li>${x}</li>`).join("")}
+
+            </ul>
+
+            <a
+                class="product-button"
+                target="_blank"
+                href="${peptide.productUrl}">
+                View Product
+            </a>
+
+        </div>
+
+        `;
+
+        container.appendChild(card);
 
     });
 
-    // Filters
+    setupAccordion();
 
-    const filterButtons = document.querySelectorAll(".filter-btn");
+}
 
-    filterButtons.forEach(button=>{
+function renderProtocols(protocols){
 
-        button.addEventListener("click",()=>{
+    let html="";
 
-            const filter = button.dataset.filter;
+    for(const key in protocols){
 
-            document.querySelectorAll(".filter-btn")
-            .forEach(btn=>btn.classList.remove("selected"));
+        html+=`<strong>${key}</strong>`;
 
-            button.classList.add("selected");
+        if(Array.isArray(protocols[key])){
 
-            const cards=document.querySelectorAll(".peptide-card");
+            html+="<ul>";
 
-            cards.forEach(card=>{
+            protocols[key].forEach(item=>{
 
-                if(filter==="all"){
-
-                    card.style.display="block";
-                    return;
-
-                }
-
-                const tags=card.dataset.tags || "";
-
-                if(tags.toLowerCase().includes(filter.toLowerCase())){
-
-                    card.style.display="block";
-
-                }else{
-
-                    card.style.display="none";
-
-                }
+                html+=`<li>${item}</li>`;
 
             });
 
-        });
-
-    });
-
-    // Scroll button
-
-    const topBtn=document.getElementById("topBtn");
-
-    window.addEventListener("scroll",()=>{
-
-        if(window.scrollY>500){
-
-            topBtn.style.display="flex";
+            html+="</ul>";
 
         }else{
 
-            topBtn.style.display="none";
+            html+=`<p>${protocols[key]}</p>`;
 
         }
 
+    }
+
+    return html;
+
+}
+
+function setupAccordion(){
+
+    document.querySelectorAll(".accordion-header").forEach(header=>{
+
+        header.onclick=()=>{
+
+            const body=header.nextElementSibling;
+
+            const open=body.style.maxHeight;
+
+            document.querySelectorAll(".accordion-body").forEach(b=>{
+
+                b.style.maxHeight=null;
+
+            });
+
+            if(!open){
+
+                body.style.maxHeight=body.scrollHeight+"px";
+
+            }
+
+        };
+
     });
 
-    topBtn.addEventListener("click",()=>{
+}
 
-        window.scrollTo({
+function setupSearch(){
 
-            top:0,
+    const search=document.getElementById("searchInput");
 
-            behavior:"smooth"
+    search.addEventListener("keyup",()=>{
+
+        const value=search.value.toLowerCase();
+
+        const filtered=peptides.filter(p=>{
+
+            return JSON.stringify(p).toLowerCase().includes(value);
 
         });
 
+        renderPeptides(filtered);
+
     });
 
-    // Placeholder for peptide JSON
+}
 
-    console.log("Luxe Research Database Ready");
+function createCategoryButtons(){
 
-});
+    const categories=new Set();
+
+    peptides.forEach(p=>{
+
+        p.categories.forEach(c=>categories.add(c));
+
+    });
+
+    const filter=document.getElementById("filters");
+
+    filter.innerHTML="";
+
+    const all=document.createElement("button");
+
+    all.innerText="All";
+
+    all.className="filter-btn";
+
+    all.onclick=()=>renderPeptides(peptides);
+
+    filter.appendChild(all);
+
+    [...categories].sort().forEach(cat=>{
+
+        const btn=document.createElement("button");
+
+        btn.className="filter-btn";
+
+        btn.innerText=cat;
+
+        btn.onclick=()=>{
+
+            renderPeptides(
+
+                peptides.filter(p=>
+
+                    p.categories.includes(cat)
+
+                )
+
+            );
+
+        };
+
+        filter.appendChild(btn);
+
+    });
+
+}
